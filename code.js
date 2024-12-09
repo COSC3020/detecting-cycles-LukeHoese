@@ -27,7 +27,7 @@ function depthFirstSearch (graph, marked, currentNode, parentNode) {
 }
 
 function hasCycle(graph) {
-    // initialize a set to track nodes that have marked as visited
+    // initialize an object to track nodes that have marked as visited
     let marked = {};
 
     // loop over every node in the graph, if that node has not been marked as visited, call depth first search function to see if there is a cycle starting at that node
