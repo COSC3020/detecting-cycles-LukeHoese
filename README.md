@@ -11,6 +11,8 @@ I have not provided any test code, but you can base yours on test code from
 other exercises. Your tests must check the correctness of the result of running
 the function and run automatically when you commit through a GitHub action.
 
+Asked chatGPt where I should start and it recommended using a depth first search as a helper function to detect cycles. All code was hand typed by me. ChatGPT was used for debugging with no major changes made.
+
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
