@@ -25,12 +25,12 @@ const graph3 = {
     4: [3, 0]
 };
 const ans3 = hasCycle(graph3);
-assert(JSON.stringify(ans2) == JSON.stringify(true));
+assert(JSON.stringify(ans3) == JSON.stringify(true));
 
 const graph4 = {
     0: [1],
     1: [0, 2],
     2: [1]
 };
-const ans2 = hasCycle(graph4);
+const ans4 = hasCycle(graph4);
 assert(JSON.stringify(ans4) == JSON.stringify(false));
