@@ -19,3 +19,5 @@ I certify that I have listed all sources used to complete this exercise, includi
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+The worst-case big $\Theta$ complexity of my implementation is $\Theta$(V + E). this is because the loop in our hasCycles function iterates over every vertex in the graph, $\Theta$(V). That loop calls the depthfirstsearch function for every vertex, which iterates over every neighbor/edge of that vertex, which after being called with every vertex is every edge in the graph $\Theta$(E).
